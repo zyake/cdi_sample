@@ -1,7 +1,5 @@
 package my.apps.cdi.sample.producer;
 
-import javax.inject.Inject;
-
 /**
  * 生成対象のビーン。
  *
@@ -29,7 +27,7 @@ public class ProducedBean {
      * なるべくさけるべきかと思います。
      */
     public ProducedBean() {
-        this.name = "";
+        this.name = null;
     }
 
     public String getName() {
